@@ -1,0 +1,117 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.15.1/moment.min.js"></script>
+
+<link rel="stylesheet" href="jrpc.css" />
+<script src="jrpc.js"></script>
+
+<script>
+  $( function() {
+    //http://jqueryui.com/datepicker/
+    $( "#startDate" ).datepicker();
+    $( "#endDate" ).datepicker();
+  });
+</script>
+
+<form class="inline-form">
+  <label class="control-label" for="startDateLabel">Start Date:</label>
+  <input type="text" name="startDate" id="startDate"><br/>
+  <label class="control-label" for="endDateLabel">End Date:</label>
+  <input type="text" name="endDate" id="endDate"><br/>
+  <button onclick="return saveData()" class="button">Submit</button>
+  <button onclick="return clearData()" class="button">Clear</button>
+</form>
+ 
+<div id="daysBetweenStatement"></div>
+
+<div id="disclaimerStatement">
+  <h3>What Does the Assignment Calculator Do?</h3>
+  <ul>
+    <li>Helps you finish your assignment on time and on target</li>
+    <li>Gives you an action plan with target due dates</li>
+    <li>Outlines the process of researching and writing step by step</li>
+    <li>Provides guidance for each step of the process</li>
+  </ul>
+  
+  <p>Remember: Each project is different, so if you need more help with your research, <a href="#">AskUs</a>.</p>
+
+  <p class="disclaimer">
+    Based on the <a target="_blank" href="http://www.lib.umn.edu">University of Minnesota Libraries</a>' <a target="_blank" href="https://github.com/ac-rpc/ac-rpc-core">Assignment Calculator</a>.
+  </p>
+</div>
+
+<hr>
+
+<div style="display: none;" id="step1Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle1"></div><div class="stepDate" id="step1date"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody1">
+  </div>
+</div>
+
+<div style="display: none;" id="step2Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle2"></div><div id="step2date" class="stepDate"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody2">
+  </div>
+</div>
+
+<div style="display: none;" id="step3Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle3"></div><div class="stepDate" id="step3date"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody3">
+  </div>
+</div>
+
+<div style="display: none;" id="step4Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle4"></div><div class="stepDate" id="step4date"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody4">
+  </div>
+</div>
+
+<div style="display: none;" id="step5Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle5"></div><div class="stepDate" id="step5date"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody5">
+  </div>
+</div>
+
+<div style="display: none;" id="step6Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle6"></div><div class="stepDate" id="step6date"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody6">
+  </div>
+</div>
+
+<div style="display: none;" id="step7Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle7"></div><div id="step7date" class="stepDate"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody7">
+  </div>
+</div>
+
+<div style="display: none;" id="step8Panel" class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><div id="stepTitle8"></div><div id="step8date" class="stepDate"></div></h3>
+  </div>
+  <div class="panel-body" id="stepBody8">
+  </div>
+</div>​
+
+</body>
+</html>
