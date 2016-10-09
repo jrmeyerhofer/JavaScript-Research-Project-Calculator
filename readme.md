@@ -29,6 +29,10 @@ Remember, concerning StepTimes - The decimal point describes the amount of time 
 
 <a href="https://jquery.com/">jQuery</a>, <a href="http://jqueryui.com/">jQuery-ui</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://momentjs.com/">Moment.js</a>
 
+##Acknowledgements
+
+Based on the <a target="_blank" href="http://www.lib.umn.edu">University of Minnesota Libraries</a>' <a target="_blank" href="https://github.com/ac-rpc/ac-rpc-core">Assignment Calculator</a>.
+  
 ##TODO:
 
 Add google cal functionality? Print friendly version? Add txt or email? Download to pdf? iframe into LibGuides?
