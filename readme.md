@@ -31,8 +31,4 @@ Remember, concerning StepTimes - The decimal point describes the amount of time 
 
 ##TODO:
 
-Add google cal functionality?
-Print friendly version? 
-Add txt or email? 
-Download to pdf?
-iframe into LibGuides?
+Add google cal functionality? Print friendly version? Add txt or email? Download to pdf? iframe into LibGuides?
