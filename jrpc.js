@@ -1,13 +1,5 @@
 //! jrpc.js
 //! authors : John Meyerhofer
-//! license : MIT
-
-//TODO:
-//add google cal functionality
-//print friendly version? 
-//txt or email? 
-//download to pdf?
-//iframe into LibGuides?
 
 //Step Values - The decimal point describes the amount of time each step should take. Make sure that the total of your numbers equal 1 (one)
 //or in other words make sure it equals 100% of the time.
