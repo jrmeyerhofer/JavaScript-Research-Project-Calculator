@@ -163,12 +163,13 @@ function showPanels(){
 function hidePanels(){
   for (i = 1; i <= StepTimes.length; i++) { 
     var PanelName = "step" + i + "Panel";
+    console.log('PanelName: ' + PanelName);
     document.getElementById(PanelName).style.display="none";
-      
-    //show the default text    
-    document.getElementById("disclaimerStatement").style.display="inline";
   }
+  //show the default text    
+  document.getElementById("disclaimerStatement").style.display="inline";
 }
+
 
 function clearData(){
   document.getElementById("startDate").value="";
@@ -194,7 +195,7 @@ function saveData(){
     console.log('daysBetween: ' + daysBetween);
     
     //don't show the steps! (bad date range)
-    if(daysBetween <= 0) {
+    if(daysBetween <= 0 || isNaN(daysBetween)) {
       document.getElementById("daysBetweenStatement").innerHTML= "<br/><b>Please enter a valid date range.</b>\n";
       
       hidePanels();
