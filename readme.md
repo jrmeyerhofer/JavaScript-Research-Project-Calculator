@@ -36,3 +36,6 @@ Based on the <a target="_blank" href="http://www.lib.umn.edu">University of Minn
 ##TODO:
 
 Add google cal functionality? Print friendly version? Add txt or email? Download to pdf? iframe into LibGuides?
+
+Easier to add to webpage? <script jrpc.js></script><div id="jrpc"></div>
+Model after: https://doaj.org/widgets
