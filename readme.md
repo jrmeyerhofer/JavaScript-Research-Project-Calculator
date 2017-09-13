@@ -15,7 +15,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with The RPC.  If not, see <http://www.gnu.org/licenses/>.
 
-##Installation Instructions
+## Installation Instructions
 
 Download the jrpc.js, jrpc.html, and jrpc.css files. Rename the html file as appropriate. Modify the RPC steps, and correlating text in the jrpc.js file as wanted. 
 
@@ -25,15 +25,15 @@ To add a step, copy the step8Panel and rename any instances of '8' to '9'. You c
 Remember, the number of steps in the jrpc.html file needs to correlate to the number of steps in the jrpc.js file. So, StepTimes, StepBody, StepTitles all need to have the same number of steps.
 Remember, concerning StepTimes - The decimal point describes the amount of time each step should take. Make sure that the total of your numbers equal 1 (one), or in other words make sure it equals 100% of the time.
 
-##Requirements
+## Requirements
 
 <a href="https://jquery.com/">jQuery</a>, <a href="http://jqueryui.com/">jQuery-ui</a>, <a href="http://getbootstrap.com/">Bootstrap</a>, <a href="http://momentjs.com/">Moment.js</a>
 
-##Acknowledgements
+## Acknowledgements
 
 Based on the <a target="_blank" href="http://www.lib.umn.edu">University of Minnesota Libraries</a>' <a target="_blank" href="https://github.com/ac-rpc/ac-rpc-core">Assignment Calculator</a>.
   
-##TODO:
+## TODO:
 
 Add google cal functionality? Print friendly version? Add txt or email? Download to pdf? iframe into LibGuides?
 
